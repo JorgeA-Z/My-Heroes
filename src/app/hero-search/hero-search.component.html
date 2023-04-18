@@ -1,0 +1,28 @@
+<div class="box">
+  <div class="Dbadge">Puntos</div>
+  <div class="Dkey">ID</div>  
+</div>
+
+<div class="box">
+  
+  <div id="search-component">
+    <label for="search-box">Hero Search</label>
+    <input #searchBox id="search-box" (input)="search(searchBox.value)" />
+    
+    <ul class="search-result">
+      <li *ngFor="let hero of heroes$ | async" >
+        <a routerLink="/detail/{{hero.id}}">
+          <div class="Dbadge">
+            {{hero.pts}}
+          </div>
+          <div class="Dkey">
+            {{hero.id}}
+          </div>
+          <div class="Dname">
+            {{hero.name}}
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

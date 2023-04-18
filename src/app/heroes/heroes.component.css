@@ -1,0 +1,143 @@
+/* HeroesComponent's private CSS styles */
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+.heroes li {
+  position: relative;
+  cursor: pointer;
+}
+
+.heroes li:hover {
+  left: .1em;
+}
+
+.heroes a {
+  color: #333;
+  text-decoration: none;
+  background-color: #EEE;
+  margin: 10px;
+  padding: 2px;
+  display: inline-flex;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.heroes a:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+}
+
+.heroes a:active {
+  background-color: #525252;
+  color: #fafafa;
+}
+
+.heroes .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #FD7475;
+  line-height: 1em;
+  position: relative;
+
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+.heroes .key {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #FDB774;
+  line-height: 1em;
+  position: relative;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 0 4px 4px 0;
+}
+.heroes .name {
+  display: inline-block;
+  font-size: small;
+  padding: 0.8em 0.7em 0 0.7em;
+  color: #333;
+  line-height: 1em;
+  position: relative;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 0 4px 4px 0;
+}
+.Dbadge {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  background-color: #FD7475;
+  line-height: 1em;
+  position: relative;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: center;
+  margin-right: .8em;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.Dkey {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  background-color: #FDB774;
+  line-height: 1em;
+  position: relative;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: center;
+  margin-right: .8em;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.box
+{
+  padding: 0.7em 0.7em 0.7em 0.7em;
+  background-color: white;
+  border-radius: 4px 4px 4px 4px;
+  margin: 15px;
+  padding: 10px;
+}
+.simbols
+{
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid white;
+  margin: 0px 0px 10px 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+
+.grid-item {
+  padding: 1px;
+}
+input
+{
+  padding: 10px;
+  margin: 10px;
+  border: 0;
+  border-bottom: 2px solid #FFBF2F;
+}
+label{
+  color: #FF4981;
+}

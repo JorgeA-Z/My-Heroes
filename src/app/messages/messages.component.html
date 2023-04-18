@@ -1,0 +1,6 @@
+<div class="box">
+        <button type="button" class="Ybutton" (click)="messageService.clear()">Clear messages</button>
+        <div class="box">
+                <div *ngFor='let message of messageService.messages'> {{message}} </div>
+        </div>
+</div>

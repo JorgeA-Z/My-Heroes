@@ -1,0 +1,53 @@
+<div class="box">
+  <div class="Dbadge">Puntos</div>
+  <div class="Dkey">ID</div>
+  
+  <label for="new-hero">Hero name: </label>
+  <input id="new-hero" #heroName />
+  
+
+  <label for="new-hero">Power: </label>
+  
+  <input type="number" id="new-hero" #heroPower />
+
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button type="button" class="Sbutton" (click)="add(heroName.value, heroPower.value); heroName.value=''; heroPower.value='' ">
+    Add hero
+  </button>
+</div>
+
+
+<div class="box">
+  <ul class="heroes">
+
+
+
+      <li *ngFor="let hero of heroes">
+
+        <div class="grid-container">
+          
+          <div class="grid-item">
+            <button type="button" class="hbutton" title="delete hero"
+            (click)="delete(hero)">x</button>
+          </div>
+
+
+          <div class="grid-item">
+            <a routerLink="/detail/{{hero.id}}">
+              
+              <span class="badge">{{hero.pts}}</span>
+
+              <span class="key">{{hero.id}}</span> 
+              <span class="name">{{hero.name}}</span> 
+            </a>
+          </div>
+
+
+
+        </div>
+
+
+      </li>
+      
+  </ul>
+</div>

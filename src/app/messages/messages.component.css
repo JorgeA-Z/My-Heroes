@@ -1,0 +1,38 @@
+/* MessagesComponent's private CSS styles */
+h2 {
+    color: #FF4981;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  
+  .clear {
+    color: #333;
+    background-color: #eee;
+    margin-bottom: 12px;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  .clear:hover {
+    color: white;
+    background-color: #42545C;
+  }
+  .Ybutton
+  {
+    background-color: #A37DFB;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .box{
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    background-color: white;
+    border-radius: 4px 4px 4px 4px;
+    margin: 15px;
+    padding: 10px;
+  }

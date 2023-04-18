@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+/* Application-wide Styles */
+h1 {
+    color: #FF4981;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+  }
+  h2, h3 {
+    color: #FBEAEF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  body {
+    margin: 2em;
+    background-color: #FFBED2;
+  }
+  body, input[type="text"], button {
+    color: #333;
+    font-family: Cambria, Georgia, serif;
+  }
+  .hbutton {
+    background-color: #A37DFB;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 5px;
+  }
+  .Sbutton {
+    background-color: #A37DFB;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 10px;
+  }
+  button:hover {
+    background-color: #F3FFBE;
+    color: white;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+  }
+  label
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  
+  /* everywhere else */
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header
+  {
+    background-color: white;
+    display:block;
+    padding: 20px;
+
+    border-radius: 4px 4px 4px 4px;
+  }
+  header a
+  {
+    
+    text-decoration:none;
+    padding:10px;
+    color: #FF2F6F;
+  }

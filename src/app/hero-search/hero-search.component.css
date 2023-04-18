@@ -1,0 +1,98 @@
+/* HeroSearch private styles */
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+  
+  }
+  input {
+    padding: .5rem;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  input:focus {
+    outline: #336699 auto 1px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  .search-result li a {
+
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    padding: .5rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .search-result li a:hover {
+    background-color: #435A60;
+    color: white;
+  }
+  
+  ul.search-result {
+    margin-top: 0;
+    padding-left: 0;
+  }
+  label{
+    color: #FF2F6F;
+  }
+
+  .box
+{
+  padding: 0.7em 0.7em 0.7em 0.7em;
+  background-color: white;
+  border-radius: 4px 4px 4px 4px;
+  margin: 15px;
+  padding: 10px;
+}
+.Dbadge {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    background-color: #FD7475;
+    line-height: 1em;
+    position: relative;
+    height: 1.8em;
+    min-width: 16px;
+    text-align: center;
+    margin-right: .8em;
+    border-radius: 4px 4px 4px 4px;
+}
+.Dkey {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    background-color: #FDB774;
+    line-height: 1em;
+    position: relative;
+    height: 1.8em;
+    min-width: 16px;
+    text-align: center;
+    margin-right: .8em;
+    border-radius: 4px 4px 4px 4px;
+  }
+
+  .Dname {
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    line-height: 1em;
+    position: relative;
+    height: 1.8em;
+    min-width: 16px;
+    text-align: center;
+    margin-right: .8em;
+    border-radius: 4px 4px 4px 4px;
+  }
